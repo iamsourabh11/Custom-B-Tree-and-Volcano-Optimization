@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultSchema": "FILM_DB",
+  "schemas": [
+    {
+      "name": "FILM_DB",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.file.FileSchemaFactory",
+      "operand": {
+        "directory": "dataset"
+      }
+    }
+  ]
+}
